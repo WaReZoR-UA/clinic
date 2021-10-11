@@ -44,9 +44,9 @@
 		background-color: #fff;
 		cursor: pointer;
 		border-radius: 4px;
-		@media (max-width: $md2+px) {
-			font-size: 18px;
-		}
+		// @media (max-width: $md2+px) {
+		// 	font-size: 18px;
+		// }
 	}
 	// .select__value
 	&__value {
@@ -92,9 +92,9 @@
 		border-top: 0;
 		font-size: 14px;
 		padding: 10px 0px 5px 0px;
-		@media (max-width: $md2+px) {
-			font-size: 18px;
-		}
+		// @media (max-width: $md2+px) {
+		// 	font-size: 18px;
+		// }
 	}
 	// .select__option
 	&__option {
@@ -354,14 +354,14 @@ textarea.input {
 			width: 9px;
 			height: 1px;
 		}
-		@media (min-width: $md2+px) {
-			&:hover {
-				&::before,
-				&::after {
-					background-color: rgba(0, 0, 0, 0.5);
-				}
-			}
-		}
+		// @media (min-width: $md2+px) {
+		// 	&:hover {
+		// 		&::before,
+		// 		&::after {
+		// 			background-color: rgba(0, 0, 0, 0.5);
+		// 		}
+		// 	}
+		// }
 		// .quantity__button_plus
 		&_plus {
 			&::before {

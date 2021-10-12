@@ -17,17 +17,48 @@
 //</FORM>====================================================================================================
 
 //<BUTTONS (a.btn+tab)>====================================================================================================
-.button {
+a.button {
+	font-weight: 500;
+	font-size: 15px;
 	display: inline-flex;
-	padding: 0px 0px;
+	line-height: math.div(18, 15) * 100%;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.015em;
+	padding: 10px 24px;
+	border-radius: 6px;
+	transition: all 0.3s ease 0s;
+	&-blue{
+		color: #fff;
+		background: #0083D1;
+	}
+	&-white{
+		color: #0083D1;
+		background: #fff;
+		border: 1px solid #0083D1;
+		&._icon-arrow_r::after {
+			font-size: 20px;
+			color: #0083D1;
+			transition: all 0.3s ease 0s;
+		}
+	}
 	@media (any-hover: hover) {
 		&:hover {
+			color:#fff;
+			background: #006DAE;
+			&._icon-arrow_r::after {
+				color: #fff;
+			}
 		}
 	}
 	&._fw {
 		width: 100%;
 	}
+	&._icon-arrow_r::after {
+		font-size: 20px;
+	}
 }
+
 //</BUTTONS>====================================================================================================
 
 //<SELECT (sel+tab)>====================================================================================================

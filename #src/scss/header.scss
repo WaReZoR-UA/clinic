@@ -12,9 +12,6 @@
 		z-index: 50;
 	}
 
-	/* .header__container */
-	&__container {}
-
 	/* .header__body */
 	&__body {
 		display: flex;
@@ -28,18 +25,6 @@
 			flex-direction: column;
 
 		}
-	}
-
-	/* .header__logo */
-	&__logo {
-	}
-
-	/* .header__link */
-	&__link {}
-
-	/* .header__menu */
-	&__menu {
-
 	}
 }
 
@@ -89,9 +74,6 @@
 }
 
 .menu {
-
-	/* .menu__icon */
-	&__icon {}
 
 	/* .menu__body */
 	&__body {

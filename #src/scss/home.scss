@@ -1,4 +1,4 @@
-//========================================== <> ==========================================================
+//========================================== <START HEADING> ==========================================================
 
 
 .heading {
@@ -87,10 +87,75 @@
 		letter-spacing: -0.015em;
 		margin: 0px 0px 24px 0px;
 	}
-
-	/* .cards__button */
-	&__button {
-	}
 }
 
 //===========================================</ END HEADING>=========================================================
+
+//==================================================< ADMINISTRATION>=================================================================
+
+.administration {
+
+	/* .administration__wrapper*/
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		align-items: center;
+		padding: 80px 0px;
+		@media (max-width: 1513px){
+			justify-content: center;
+		}
+	}
+
+
+	/* .administration__img */
+	&__img {
+		max-width: 750px;
+		margin: 0px 10px 0px 0px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		@media (max-width: 1456px) {
+			margin: 0px 0px 56px 0px;
+		}
+	}
+
+	/* .administration__adress */
+	&__adress {}
+
+	/* .administration__title */
+	&__title {
+		color: $mainColor;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: math.div(36, 24) * 100%;
+		letter-spacing: -0.015em;
+		margin: 0px 0px 24px 0px;
+	}
+
+	/* .administration__list */
+	&__list {
+	}
+	
+	/* .administration__item */
+	&__item {
+		color:$thirdColor;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: math.div(24, 14) * 100%;
+		letter-spacing: -0.015em;
+		span{
+			color: $mainColor;
+			margin: 0px 0px 0px 12px;
+		}
+		&:not(:last-child) {
+			margin: 0px 0px 12px 0px;
+		}
+		&:last-child {
+			margin: 0px 0px 24px 0px;
+		}
+	}
+}
+
+//==================================================</ START ADMINISTRATION >===============================================================

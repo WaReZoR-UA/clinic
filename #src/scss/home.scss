@@ -121,9 +121,6 @@
 		}
 	}
 
-	/* .administration__adress */
-	&__adress {}
-
 	/* .administration__title */
 	&__title {
 		color: $mainColor;
@@ -132,10 +129,6 @@
 		line-height: math.div(36, 24) * 100%;
 		letter-spacing: -0.015em;
 		margin: 0px 0px 24px 0px;
-	}
-
-	/* .administration__list */
-	&__list {
 	}
 	
 	/* .administration__item */

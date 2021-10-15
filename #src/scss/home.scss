@@ -2,7 +2,6 @@
 
 
 .heading {
-	margin: 95px auto 0px;
 	padding: 160px 0px;
 	background: url('../img/main_page/header_bg.jpg') center  top / cover no-repeat;
 
@@ -29,7 +28,7 @@
 .cards {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 
 	/* .cards__item */
 	&__item {

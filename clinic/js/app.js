@@ -178,10 +178,24 @@ for (let index = 0; index < tabs.length; index++) {
 		});
 	}
 }
+
+/*=================
+Добавляем класс кнопкам и убираем его при клике на другую кнопку
+*/
+let button = document.getElementsByClassName('spoller__button');
+let action = document.getElementsByClassName('spoller__image');
+
+button[0].onclick = function () {
+	action[0].classList.add("_active");
+}
+
+
+
+
 //=================
 /*
-Для родителя слойлеров пишем атрибут data-spollers
-Для заголовков слойлеров пишем атрибут data-spoller
+Для родителя спойлеров пишем атрибут data-spollers
+Для заголовков спойлеров пишем атрибут data-spoller
 Если нужно включать\выключать работу спойлеров на разных размерах экранов
 пишем параметры ширины и типа брейкпоинта.
 Например: 
@@ -194,21 +208,21 @@ data-spollers="768,min" - спойлеры будут работать толь�
 // SPOLLERS
 const spollersArray = document.querySelectorAll('[data-spollers]');
 if (spollersArray.length > 0) {
-	// Получение обычных слойлеров
+	// Получение обычных спойлеров
 	const spollersRegular = Array.from(spollersArray).filter(function (item, index, self) {
 		return !item.dataset.spollers.split(",")[0];
 	});
-	// Инициализация обычных слойлеров
+	// Инициализация обычных спойлеров
 	if (spollersRegular.length > 0) {
 		initSpollers(spollersRegular);
 	}
 
-	// Получение слойлеров с медиа запросами
+	// Получение спойлеров с медиа запросами
 	const spollersMedia = Array.from(spollersArray).filter(function (item, index, self) {
 		return item.dataset.spollers.split(",")[0];
 	});
 
-	// Инициализация слойлеров с медиа запросами
+	// Инициализация спойлеров с медиа запросами
 	if (spollersMedia.length > 0) {
 		const breakpointsArray = [];
 		spollersMedia.forEach(item => {

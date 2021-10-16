@@ -182,19 +182,17 @@ for (let index = 0; index < tabs.length; index++) {
 /*=================
 Добавляем класс кнопкам и убираем его при клике на другую кнопку
 */
-
-const imageTumbs = document.querySelectorAll('.spoller__image');
-const buttons = document.querySelectorAll('.spoller__button')
+const buttons = document.querySelectorAll('.spoller__button');
 
 buttons.forEach(button => {
-	imageTumbs.forEach(image => {
-		button.addEventListener('click', function () {
+	button.addEventListener('click', (event) => {
+		const parentNode = event.target.closest('.spoller__heading')
+		if (parentNode) {
 			button.classList.toggle('_icon-arrow_u');
-			// image.classList.toggle('_active')
-			console.log('img', image);
-		})
-	})
-})
+			parentNode.nextElementSibling.classList.toggle('_active')
+		}
+	});
+});
 
 
 //=================

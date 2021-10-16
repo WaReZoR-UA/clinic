@@ -53,7 +53,7 @@
 	&__heading {
 		display: flex;
 		flex-direction: column;
-		padding: 24px;
+		padding: 24px 24px 0 24px;
 		align-items:flex-start;
 	}
 
@@ -68,8 +68,7 @@
 	}
 
 	/* .spoller__address */
-	&__address,
-	&__schedule{
+	&__address{
 		color: $thirdColor;
 		font-weight: normal;
 		font-size: 14px;
@@ -85,8 +84,20 @@
 			padding: 0px 0px 0px 12px;
 		}
 	}
-	&__schedule{
-		margin: 0px 0px 16px 0px;
+	&__schedule {
+		color: $thirdColor;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: -0.015em;
+		span {
+			color: $mainColor;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 24px;
+			letter-spacing: -0.015em;
+			padding: 0px 0px 0px 12px;
+		}
 	}
 
 	/* .spoller__image */
@@ -107,6 +118,7 @@
 	&__cards{
 		display: flex;
 		flex-wrap: wrap;
+		margin: 40px 0px 0px 0px;
 	}
 	/* .spoller__button */
 	&__button {

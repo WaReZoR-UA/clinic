@@ -1667,7 +1667,7 @@ body.ie ._ibg img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 24px;
+  padding: 24px 24px 0 24px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -1682,8 +1682,7 @@ body.ie ._ibg img {
   margin: 0px 0px 24px 0px;
 }
 
-.spoller__address,
-.spoller__schedule {
+.spoller__address {
   color: #686565;
   font-weight: normal;
   font-size: 14px;
@@ -1692,8 +1691,7 @@ body.ie ._ibg img {
   margin: 0px 0px 12px 0px;
 }
 
-.spoller__address span,
-.spoller__schedule span {
+.spoller__address span {
   color: #212121;
   font-weight: normal;
   font-size: 14px;
@@ -1703,7 +1701,20 @@ body.ie ._ibg img {
 }
 
 .spoller__schedule {
-  margin: 0px 0px 16px 0px;
+  color: #686565;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+}
+
+.spoller__schedule span {
+  color: #212121;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  padding: 0px 0px 0px 12px;
 }
 
 .spoller__image {
@@ -1727,6 +1738,7 @@ body.ie ._ibg img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 40px 0px 0px 0px;
 }
 
 .spoller__button {

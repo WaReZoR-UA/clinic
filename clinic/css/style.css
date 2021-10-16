@@ -1613,7 +1613,7 @@ body.ie ._ibg img {
           flex-direction: column;
 }
 
-.levels__spollers._init {
+.levels__spollers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1638,6 +1638,7 @@ body.ie ._ibg img {
   -webkit-box-shadow: 0px 2px 8px rgba(0, 108, 172, 0.1);
           box-shadow: 0px 2px 8px rgba(0, 108, 172, 0.1);
   border-radius: 4px;
+  margin: 0px 0px 16px 0px;
   /* .spoller__heading */
   /* .spoller__title */
   /* .spoller__address */

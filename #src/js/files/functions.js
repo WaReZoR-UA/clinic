@@ -179,14 +179,19 @@ for (let index = 0; index < tabs.length; index++) {
 /*=================
 Добавляем класс кнопкам и убираем его при клике на другую кнопку
 */
-let button = document.getElementsByClassName('spoller__button');
-let action = document.getElementsByClassName('spoller__image');
 
-button[0].onclick = function () {
-	action[0].classList.add("_active");
-}
+const imageTumbs = document.querySelectorAll('.spoller__image');
+const buttons = document.querySelectorAll('.spoller__button')
 
-
+buttons.forEach(button => {
+	imageTumbs.forEach(image => {
+		button.addEventListener('click', function () {
+			button.classList.toggle('_icon-arrow_u');
+			// image.classList.toggle('_active')
+			console.log('img', image);
+		})
+	})
+})
 
 
 //=================

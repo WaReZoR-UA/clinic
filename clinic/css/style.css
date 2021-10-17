@@ -1641,14 +1641,23 @@ body.ie ._ibg img {
           box-sizing: border-box;
   -webkit-box-shadow: 0px 2px 8px rgba(0, 108, 172, 0.1);
           box-shadow: 0px 2px 8px rgba(0, 108, 172, 0.1);
-  border-radius: 4px;
+  border-radius: 8px;
   margin: 0px 0px 16px 0px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   /* .spoller__heading */
   /* .spoller__title */
   /* .spoller__address */
   /* .spoller__image */
   /* .spoller__content */
   /* .spoller__button */
+}
+
+.spoller:hover {
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 108, 172, 0.25));
+          filter: drop-shadow(0px 4px 10px rgba(0, 108, 172, 0.25));
 }
 
 .spoller__wrapper {
@@ -1760,6 +1769,14 @@ body.ie ._ibg img {
   margin: 0px 16px 16px 0px;
   width: 245.4px;
   overflow: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.spoller__item:hover {
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 108, 172, 0.25));
+          filter: drop-shadow(0px 4px 10px rgba(0, 108, 172, 0.25));
 }
 
 .spoller__photo {

@@ -68,8 +68,13 @@
 	border: 1px solid #D2E9F6;
 	box-sizing: border-box;
 	box-shadow: 0px 2px 8px rgba(0, 108, 172, 0.1);
-	border-radius: 4px;
+	border-radius: 8px;
 	margin: 0px 0px 16px 0px;
+	overflow: hidden;
+	transition: all 0.3s ease 0s;
+	&:hover{
+		filter: drop-shadow(0px 4px 10px rgba(0, 108, 172, 0.25));
+	}
 	&__wrapper{
 	display: flex;
 	flex-direction: row;
@@ -175,6 +180,10 @@
 		margin: 0px 16px 16px 0px;
 		width: 245.4px;
 		overflow: hidden;
+		transition: all 0.3s ease 0s;
+		&:hover{
+			filter: drop-shadow(0px 4px 10px rgba(0, 108, 172, 0.25));
+		}
 	}
 	&__photo{
 		width: 245.4px;

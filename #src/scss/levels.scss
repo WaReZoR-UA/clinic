@@ -11,17 +11,44 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
+		@media (max-width: 1416px){
+			flex-direction: column;
+		}
 	}
 
 	/* .levels__side */
 	&__side {
 		margin: 0px 80px 0px 0px;
+		@media (max-width: 1416px){
+			margin: 0;
+		}
 	}
 
 	/* .levels__list */
 	&__list {
 		display: flex;
 		flex-direction: column;
+		@media (max-width: 1416px) {
+			flex-direction: row;
+			justify-content: center;
+		}
+		@media (max-width: 824px){
+			flex-direction: column;
+		}
+	}
+	&__item{
+		margin: 0px 0px 16px 0px;
+		@media (max-width: 1416px){
+			&:not(:last-child) {
+				margin: 0px 60px 30px 0px;
+			}
+		}
+		@media (max-width: 824px){
+			margin: 0px auto 30px;
+			&:not(:last-child) {
+				margin: 0px auto 30px;
+			}
+		}
 	}
 	/* .levels__spollers */
 	&__spollers {
@@ -47,6 +74,9 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	@media (max-width: 1132px){
+		flex-direction: column;
+	}
 	}
 
 	/* .spoller__heading */
@@ -108,6 +138,16 @@
 		&._active{
 			display: none;
 		}
+		@media (max-width: 1132px){
+			margin: 24px 0px 85px 24px;
+			
+		}
+		@media (max-width: 480px){
+			width: 300px;
+		}
+		@media (max-width: 375px){
+			width: 240px;
+		}
 	}
 
 	/* .spoller__content */
@@ -124,6 +164,7 @@
 	&__button {
 		position: absolute;
 		bottom: 24px;
+		z-index: 2;
 	}
 	&__item{
 		background: #FFFFFF;

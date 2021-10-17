@@ -21,7 +21,7 @@
 		align-items: center;
 		flex: 0 0 math.div(868, 1640) * 100%;
 		padding: 21px 0px;
-		@media (max-width: 1440px){
+		@media (max-width: 1513px){
 			flex-direction: column;
 
 		}
@@ -149,7 +149,7 @@
 				background: #006DAE;
 			}
 		}
-		&._select {
+		&._active {
 			color: $bgColor;
 			font-weight: 500;
 			font-size: 14px;

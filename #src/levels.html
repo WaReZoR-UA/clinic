@@ -8,23 +8,855 @@
 			@@include('_header.html',{})
 			<main class="page">
 				<div class="levels page__fix">
-					<div class="levels__container _container">
+					<div class="levels__container _container _tabs">
 						<aside class="levels__side">
-							<nav>
+							<nav class="levels__menu">
 								<ul class="levels__list">
-									<li class="levels__item"><a href="" class="levels__button levels__button_blue levels__button_active">Первинний рiвень</a></li>
-									<li class="levels__item"><a href="" class="levels__button levels__button_white">Вторинний рiвень</a></li>
-									<li class="levels__item"><a href="" class="levels__button levels__button_white">Допоміжні служби</a></li>
+									<li class="levels__item"><a href="" class="levels__button levels__button_white _tabs-item _active">Первинний рiвень</a></li>
+									<li class="levels__item"><a href="" class="levels__button levels__button_white _tabs-item">Вторинний рiвень</a></li>
+									<li class="levels__item"><a href="" class="levels__button levels__button_white _tabs-item">Допоміжні служби</a></li>
 								</ul>
 							</nav>
 						</aside>
-						<section class="levels__section">
+						<!-- /* споллеры певого уровня */ -->
+						<section class="levels__section _tabs-block _active""> 
 							<div data-spollers data-one-spoller class="levels__spollers">
 								<div class="levels__spoller spoller">
 									<div data-spoller class="spoller__wrapper">
 										<div class="spoller__heading">
-											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
+											<h3 class="spoller__title">[TAB-1]Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
 											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/kamenka.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+													<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
+													<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
+													<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+													<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+													<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
+													<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
+													<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+													<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+													<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
+													<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
+													<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+													<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+													<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
+													<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
+													<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+													<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+													<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
+													<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
+													<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+													<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="levels__pagination">
+
+							</div>
+						</section>
+						<!-- /* споллеры второго уровня */ -->
+						<section class="levels__section _tabs-block"> 
+							<div data-spollers data-one-spoller class="levels__spollers">
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">[TAB-2]Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/apteca.png" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
 											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
 											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
 										</div>
@@ -140,10 +972,12 @@
 								<div class="levels__spoller spoller">
 									<div data-spoller class="spoller__wrapper">
 										<div class="spoller__heading">
-													<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
-													<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
-													<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
-													<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
 										</div>
 										<div class="spoller__image _ibg">
 											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
@@ -257,10 +1091,969 @@
 								<div class="levels__spoller spoller">
 									<div data-spoller class="spoller__wrapper">
 										<div class="spoller__heading">
-													<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с. Лощинівка</h3>
-													<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район, с. Саф'яни, вул. Грушевського, 108</span></div>
-													<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
-													<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- /* споллеры доп служб уровня */ -->
+						<section class="levels__section _tabs-block"> 
+							<div data-spollers data-one-spoller class="levels__spollers">
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/niceplace.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
+										</div>
+										<div class="spoller__image _ibg">
+											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">
+										</div>
+									</div>
+									<div class="spoller__content">
+										<div class="spoller__cards">
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/doctor.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+											<div class="spoller__item">
+												<div class="spoller__photo _ibg">
+													<img src="img/levels_page/placeholder_spoller.jpg" alt="Employee photography">
+												</div>
+												<div class="spoller__data">
+													<div class="spoller__profession">Сімейний лікар</div>
+													<div class="spoller__name">Дамаскін Інна Михайлівна</div>
+													<div class="spoller__phone">+38 (063)-74-52-184</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="levels__spoller spoller">
+									<div data-spoller class="spoller__wrapper">
+										<div class="spoller__heading">
+											<h3 class="spoller__title">Амбулаторія загальної практики - сімейної медицини с.
+												Лощинівка</h3>
+											<div class="spoller__address">Адреса: <span>68670, Одеська область, Ізмаїльський район,
+													с. Саф'яни, вул. Грушевського, 108</span></div>
+											<div class="spoller__schedule">Відкрито: <span>Пн-Пт, 08:00–18:00</span></div>
+											<button class="spoller__button button button-blue _icon-arrow_d">Детальнiше</button>
 										</div>
 										<div class="spoller__image _ibg">
 											<img src="img/levels_page/placeholder_spoller.jpg" alt="placeholder">

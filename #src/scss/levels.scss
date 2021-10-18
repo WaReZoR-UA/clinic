@@ -15,13 +15,20 @@
 			flex-direction: column;
 		}
 	}
-
+	
 	/* .levels__side */
 	&__side {
+		position: relative;
 		margin: 0px 80px 0px 0px;
 		@media (max-width: 1416px){
 			margin: 0;
 		}
+	}
+
+	/*  .levels__menu */
+	&__menu {
+		position:sticky;
+		top: 135px;
 	}
 
 	/* .levels__list */

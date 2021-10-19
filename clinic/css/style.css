@@ -1887,9 +1887,15 @@ body.ie ._ibg img {
 }
 
 .news__img {
-  width: 690px;
-  height: 380px;
+  max-width: 690px;
   margin: 0px 16px 0px 0px;
+}
+
+.news__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .news__tumbs {
@@ -1903,15 +1909,20 @@ body.ie ._ibg img {
   max-width: 198px;
 }
 
+.news__tumbs img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .news__tumbs_small {
-  width: 198px;
-  height: 144px;
+  max-width: 314px;
   margin: 0px 0px 16px 0px;
 }
 
 .news__tumbs_medium {
-  width: 198px;
-  height: 220px;
+  max-width: 314px;
 }
 
 .content {
@@ -2061,11 +2072,14 @@ body.ie ._ibg img {
 }
 
 .last-news__image {
-  width: 246px;
-  height: 240px;
+  max-width: 246px;
 }
 
 .last-news__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 2px 0px 0px 2px;
 }
 
@@ -2259,14 +2273,7 @@ body.ie ._ibg img {
   }
 
   .news__tumbs_small {
-    width: 302px;
-    height: 220px;
     margin: 0px 16px 0px 0px;
-  }
-
-  .news__tumbs_medium {
-    width: 302px;
-    height: 220px;
   }
 
   .content {

@@ -3045,7 +3045,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .news__title {
   color: #212121;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 150%;
   letter-spacing: -0.015em;
   margin: 0px 0px 16px 0px;
@@ -3325,6 +3325,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .heading__title {
     font-size: calc(21px + 21 * ((100vw - 320px) / 1350));
+  }
+
+  .content__title {
+    font-size: calc(14px + 4 * ((100vw - 320px) / 1350));
   }
 }
 

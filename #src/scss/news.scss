@@ -31,7 +31,7 @@
 	&__title {
 		color: $mainColor;
 		font-weight: 600;
-		font-size: 24px;
+		font-size: 18px;
 		line-height: math.div(36, 24) * 100%;
 		letter-spacing: -0.015em;
 		margin: 0px 0px 16px 0px;
@@ -114,7 +114,7 @@
 	&__title {
 		color: $secondColor;
 		font-weight: 600;
-		font-size: 18px;
+		@include adaptiv-value("font-size", 18, 14, 1);
 		line-height: math.div(36, 18) * 100%;
 		letter-spacing: -0.015em;
 		margin: 0px 0px 12px 0px;

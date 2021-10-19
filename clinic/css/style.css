@@ -1195,6 +1195,7 @@ body.ie ._ibg img {
 }
 
 .footer {
+  background: #F8FCFF;
   /* .footer__container */
   /* .footer__logo */
   /* .footer__img */
@@ -1820,8 +1821,106 @@ body.ie ._ibg img {
   letter-spacing: -0.015em;
 }
 
+.page {
+  /* .page__wrapper */
+}
+
+.page__wrapper {
+  background: #F8FCFF;
+}
+
+.adm {
+  /* .adm__wrapper */
+  /* .adm__title */
+  /* .adm__subtitle */
+  /* .adm__cards */
+  /* .adm__card */
+}
+
+.adm__wrapper {
+  padding: 40px 0px 0px 0px;
+}
+
+.adm__title {
+  color: #212121;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.015em;
+  margin: 0px 0px 16px 0px;
+}
+
+.adm__subtitle {
+  color: #7D7D7D;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -0.015em;
+  margin: 0px 0px 80px 0px;
+}
+
+.adm__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  max-width: 315.2px;
+  background: #FFFFFF;
+  border: 1.16105px solid #D2E9F6;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 108, 172, 0.1), inset 0px 4px 22px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 2px 8px rgba(0, 108, 172, 0.1), inset 0px 4px 22px rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0px auto 16px;
+  /* .card__tumb */
+  /* .card__img */
+  /* .card__title */
+  /* .card__title */
+  /* .card__subtitle */
+  /* .card__phone */
+}
+
+.card__tumb {
+  width: 100%;
+}
+
+.card__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__content {
+  padding: 24px;
+  color: #423E3E;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 177.7777777778%;
+  letter-spacing: -0.015em;
+  margin: 0px 0px 10px 0px;
+}
+
+.card__subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 185.7142857143%;
+  letter-spacing: -0.015em;
+}
+
+.card__phone {
+  display: block;
+}
+
 .news {
-  padding: 40px 0px 120px 0px;
+  padding: 40px 0px 0px;
   background: url("../img/icons/main_page/puls.svg") 0 34px/524px 146px no-repeat;
   /*  .news__container */
   /* .news__wrapper */

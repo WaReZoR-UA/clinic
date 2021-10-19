@@ -2059,10 +2059,11 @@ body.ie ._ibg img {
 ._quote {
   position: relative;
   color: #423E3E;
+  font-size: 15px;
+  line-height: 200%;
+  letter-spacing: -0.015em;
   background: #F8FCFF;
   border: 1px solid #F8FCFF;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   border-radius: 4px;
   overflow: hidden;
   padding: 24px;
@@ -2388,9 +2389,9 @@ body.ie ._ibg img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
@@ -2516,6 +2517,25 @@ body.ie ._ibg img {
 
   .page__fix {
     margin: 95px auto 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .last-news__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .last-news__text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+
+  .last-news__image {
+    max-width: 100%;
   }
 }
 

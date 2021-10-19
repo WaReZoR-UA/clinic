@@ -244,6 +244,7 @@ a.levels__button {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  outline: none;
 }
 
 a.levels__button._active {
@@ -256,7 +257,8 @@ a.levels__button._active::before {
   width: 11px;
   height: 11px;
   background: #fff;
-  outline: 2px solid #fff;
+  -webkit-box-shadow: 0 0 0 2px;
+          box-shadow: 0 0 0 2px;
   border: 1px solid #006DAE;
   border-radius: 50%;
   margin: 0px 14px 0px 0px;
@@ -280,13 +282,16 @@ a.levels__button_white::before {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  outline: none;
 }
 
 a.levels__button_white::before:hover {
   content: "";
   background: #fff;
-  outline: 1px solid #fff;
+  -webkit-box-shadow: 0 0 0 2px;
+          box-shadow: 0 0 0 2px;
   border-radius: 0;
+  outline: none;
 }
 
 .select {
@@ -2058,7 +2063,7 @@ body.ie ._ibg img {
   letter-spacing: -0.015em;
 }
 
-.last-news__excerpt {
+.last-news a {
   display: inline-block;
   color: #0083D1;
   font-size: 14px;
@@ -2480,7 +2485,8 @@ body.ie ._ibg img {
   a.levels__button:hover::before {
     content: "";
     background: #fff;
-    outline: 2px solid #fff;
+    -webkit-box-shadow: 0 0 0 2px #fff;
+            box-shadow: 0 0 0 2px #fff;
     border: 1px solid #006DAE;
     border-radius: 50%;
   }

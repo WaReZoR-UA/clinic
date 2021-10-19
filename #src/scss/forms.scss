@@ -73,6 +73,7 @@ a.levels__button {
 	text-align: center;
 	padding: 13px 24px;
 	transition: all 0.3s ease 0s;
+	outline: none;
 	&._active{
 		color: #fff;
 		background: #0083D1;
@@ -81,7 +82,7 @@ a.levels__button {
 			width: 11px;
 			height: 11px;
 			background: #fff;
-			outline: 2px solid #fff;
+			box-shadow: 0 0 0 2px;
 			border: 1px solid $hover;
 			border-radius: 50%;
 			margin: 0px 14px 0px 0px;
@@ -99,11 +100,13 @@ a.levels__button {
 			border-radius: 50%;
 			margin: 0px 14px 0px 0px;
 			transition: all 0.3s ease 0s;
+			outline: none;
 			&:hover {
 					content: "";
 					background: #fff;
-					outline: 1px solid #fff;
+					box-shadow: 0 0 0 2px;
 					border-radius: 0;
+					outline: none;
 				}
 		}
 	}
@@ -114,7 +117,7 @@ a.levels__button {
 			&::before {
 				content: "";
 				background: #fff;
-				outline: 2px solid #fff;
+				box-shadow: 0 0 0 2px #fff;
 				border: 1px solid $hover;
 				border-radius: 50%;
 			}
